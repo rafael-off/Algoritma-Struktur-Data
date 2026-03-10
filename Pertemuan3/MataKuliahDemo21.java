@@ -34,6 +34,11 @@ public class MataKuliahDemo21 {
             System.out.println("Jumlah Jam : " + arrayOfMataKuliah21[i].jumlahJam);
             System.out.println("------------------------------");
         }
+
+        for(int i = 0; i < 3; i++) {
+            System.out.println("Data Mata Kuliah ke-" + (i + 1));
+            arrayOfMataKuliah21[i].cetakInfo();
+        }
         sc.close();
     }
 }
